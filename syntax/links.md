@@ -14,14 +14,14 @@ To create an inline link, use a set of regular parentheses immediately after the
 
 [I'm a relative reference to a repository file](../blob/master/LICENSE)
 ```
+liens de référence de style utilisent une deuxième série de crochets, à l'intérieur duquel vous placez une étiquette de votre choix pour identifier le lien:
+`` `Démarques
+Ceci est [un exemple] lien [id] référence de style.
+`` `
 
-Reference-style links use a second set of square brackets, inside which you place a label of your choosing to identify the link:
-```markdown
-This is [an example][id] reference-style link.
-```
-
-You can optionally use a space to separate the sets of brackets:
-```markdown
+Vous pouvez éventuellement utiliser un espace pour séparer les ensembles de supports:
+`` `Démarques
+Ceci est [un exemple] lien [id] référence de style.
 This is [an example] [id] reference-style link.
 ```
 
@@ -52,4 +52,3 @@ What are the correct informations from this link: ```[a link](http://google.fr "
 > Links can have 3 parts: the text, the url and a title.
 
 ---
-
